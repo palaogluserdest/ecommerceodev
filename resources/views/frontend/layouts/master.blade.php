@@ -336,6 +336,7 @@
 <!-- Placed at the end of the document so the pages load faster ============================================= -->
 @include('frontend.layouts.partiel.script')
 
+
 <!-- Themes switcher section ============================================================================================= -->
 <div id="secectionBox">
     <div id="themeContainer">
