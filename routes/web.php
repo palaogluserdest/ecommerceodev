@@ -13,4 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/','frontend.layouts.master')->name('master');
+Route::view('/','frontend.homepage')->name('homepage');
+Route::view('/normal','frontend.normal')->name('normal');
+Route::view('/product-details','frontend.product-details')->name('product-details');
+Route::view('/product-summary','frontend.product-summary')->name('product-summary');
